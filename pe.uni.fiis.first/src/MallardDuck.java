@@ -8,4 +8,9 @@ public class MallardDuck extends Duck {
         System.out.println("im saying the "+ cadena);
     }
 
+
+    public MallardDuck(){
+        quackBehavior = new Quack();
+        flyBehavior = new FlyWithWings();
+    }
 }

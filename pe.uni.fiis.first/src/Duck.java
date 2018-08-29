@@ -1,4 +1,4 @@
-public class Duck {
+public  class Duck {
     Integer peso;
     Integer edad;
 
@@ -16,6 +16,14 @@ public class Duck {
     void performFly(){
         flyBehavior.fly();
     };
+
+    public void setFlyBehavior(FlyBehavior fb){
+        flyBehavior=fb;
+    }
+
+    public void setQuackBehavior(QuackBehavior qb){
+        quackBehavior=qb;
+    }
 
 
     void swim(){
